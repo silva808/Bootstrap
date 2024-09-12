@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #BCBCBC;
+    height: 100vh;
+}
+
+.navig-bar{
+    height: 15%;
+}
+.logo{
+    padding-left: 5%;
+    width: 50%;
+}
+.title{
+    font-weight: bold;
+    color: #D65454;
+}
+.list{
+    width: 50%;
+    height: 100%;
+}
+.nav-item a{
+    font-size: x-large;
+    color: #100F0F;
+}
+.nav-item a:hover{
+    color: #D65454;
+}
+
+.hero{
+    height: 48%;
+    background-color: #D9D9D9;
+}
+.img-hero{
+    width: 55%;
+}
+.img{
+    background-color: #B0AEAE;
+    border-radius: 25px;
+    height: 80%;
+    width: 40%;
+    background-image: url("../img/developer_male.png");
+    background-size: cover;
+}
+.descrip-cont{
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+}
+.text1{
+    font-size: larger;
+    color: #100F0F;
+}
+.text2{
+    font-size: 3.8rem;
+    color: #100F0F;
+}
+.text3{
+    font-size: 3.8rem;
+    color: #D65454;
+}
+.text4{
+    width: 65%;
+    font-size:medium;
+    color: #100F0F;
+}
+
+.about{
+    height: 50%;
+}
+.about-cont{
+    width: 60%;
+    height: 100%;
+}
+.about-img{
+    width: 40%;
+    height: 80%;
+    background-color: #B0AEAE;
+    border-radius: 25px;
+    z-index: 1;
+}
+.about-text-cont{
+    width: 70%;
+    height: 66%;
+    background-color: #DBD6D6;
+    border-radius: 25px;
+    position: relative;
+    right: 5%;
+}
+.quotes{
+    font-size: 7rem;
+    color: #D65454;
+    font-style: italic;
+    height: 20%;
+    margin-left: 12%;
+}
+.about-text{
+    font-size: large;
+    color: #100F0F;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 12%;
+}
+
+.projects{
+    height: 60%;
+    background-color: #D9D9D9;
+}
+.proj-title{
+    font-weight: bold;
+    color: #D65454;
+}
+.proj-card-cont{
+    height: 90%;
+}
+.card{
+    background-color: #D9D9D9;
+}
+.card-img-top{
+    height: 10rem;
+    background-image: url("/img/medpriority.png");
+    background-size: cover;
+}
+.card-title{
+    color: #D65454;
+}
+
+.contact{
+    height: 70%;
+}
+.contact-title{
+    color: #D65454;
+}
+.contact-cont{
+    width: 45%;
+    height: 70%;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+}
+.contact-cont p{
+    width: 13%;
+}
+.contact-cont input{
+    width: 40%;
+    border-radius: 10px;
+    background-color: #C3BFBF;
+    border: none;
+}
+.contact-cont textarea{
+    width: 70%;
+    border-radius: 10px;
+    background-color: #C3BFBF;
+    border: none;
+}
+
+.footer{
+    height: 15%;
+    background-color: #D65454;
+}
+.footer h1{
+    font-weight: bold;
+    color: #D9D9D9;
+}
