@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #BCBCBC;
+    height: 99vh;
+}
+:root{
+    --orange: #D65454;
+    --gray-bg: #D9D9D9;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: var(--orange);
+    font-size: 2rem;
+}
+.nav-item a{
+    font-size: x-large;
+    color: #100F0F;
+}
+.nav-item a:hover{
+    color: #D65454;
+}
+
+.hero{
+    /* height: 48%; */
+    background-color: #D9D9D9;
+}
+
+.about{
+    height: 50%;
+}
+.about-cont{
+    /* width: 80%;
+    height: 100%; */
+    /* border: 1px solid black; */
+}
+.about-img{
+    /* width: 22rem;
+    height: 22rem; */
+    background-color: #B0AEAE;
+    border-radius: 25px;
+    z-index: 1;
+}
+.about-text-cont{
+    /* width: 40rem;
+    height: 16rem; */
+    background-color: #DBD6D6;
+    border-radius: 25px;
+    position: relative;
+    right: 5%;
+}
+.quotes{
+    font-size: 7rem;
+    color: #D65454;
+    font-style: italic;
+    height: 20%;
+    margin-left: 12%;
+}
+.about-text{
+    font-size: large;
+    color: #100F0F;
+    height: 80%;
+    margin-left: 20%;
+    margin-right: 12%;
+}
+
+.projects{
+    background-color: #D9D9D9;
+}
+.proj-title{
+    font-weight: bold;
+    color: #D65454;
+}
+.card{
+    background-color: #D9D9D9;
+}
+.card-title{
+    color: #D65454;
+}
+
+.contact{
+    height: 70%;
+}
+.contact-title{
+    color: #D65454;
+}
+.contact-cont{
+    width: 45%;
+    height: 70%;
+    background-color: #D9D9D9;
+    border-radius: 25px;
+}
+.contact-cont label{
+    width: 13%;
+}
+.contact-cont input{
+    width: 40%;
+    border-radius: 10px;
+    background-color: #C3BFBF;
+    border: none;
+}
+.contact-cont textarea{
+    width: 70%;
+    border-radius: 10px;
+    background-color: #C3BFBF;
+    border: none;
+}
+
+.footer{
+    height: 15%;
+    background-color: #D65454;
+}
+.footer h1{
+    font-weight: bold;
+    color: #D9D9D9;
+}
